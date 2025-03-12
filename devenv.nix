@@ -27,7 +27,10 @@
   scripts.build.exec = ''''; # Build release version of the API
   scripts.dev-build.exec = ''''; # Build testing version of the API
 
-  #enterShell = '''';
+  #
+  enterShell = ''
+    echo "[DEVENV]: Don't forget to check 'https://github.com/risk-of-thunder/R2API/wiki'!"
+  '';
 
   # https://devenv.sh/tasks/
   # tasks = {
